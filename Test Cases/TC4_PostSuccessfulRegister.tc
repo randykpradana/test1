@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC4_PostSuccessfulRegister</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6d1bae9e-8906-483e-b86d-023efb03b451</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>45ce3704-5d6c-49a0-be42-5383122fd273</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://reqres.in/'</defaultValue>
+      <description></description>
+      <id>45ce3704-5d6c-49a0-be42-5383122fd273</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>

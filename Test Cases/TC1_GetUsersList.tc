@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC2_SingleUser</name>
+   <name>TC1_GetUsersList</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ddf79d21-c20b-44be-a577-fed7435548b1</testCaseGuid>
+   <testCaseGuid>fbcc7ee1-0ae1-4e2f-b3d5-9516bd68583b</testCaseGuid>
 </TestCaseEntity>

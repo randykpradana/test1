@@ -17,3 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+response = WS.sendRequest(findTestObject('UpdateUser'))
+WS.verifyResponseStatusCode(response, 200)
+WS.verifyElementPropertyValue(response, 'name', "Alessandro")
+WS.verifyElementPropertyValue(response, 'job', "QA Engineer")
