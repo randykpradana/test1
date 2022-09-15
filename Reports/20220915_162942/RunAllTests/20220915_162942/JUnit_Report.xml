@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RunAllTests" time="6.476" tests="4" failures="0" errors="0">
+   <testsuite name="RunAllTests" tests="4" failures="0" errors="0" time="6.476" skipped="0" timestamp="2022-09-15 16:29:45" hostname="LENOVO IDEAPAD S340 - LAPTOP-CIUCSH0M" id="Test Suites/RunAllTests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\LENOVO IDEAPAD S340\\git\\test1\\Reports\\20220915_162942\\RunAllTests\\20220915_162942"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO IDEAPAD S340\\git\\test1\\Reports\\20220915_162942\\RunAllTests\\20220915_162942\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LENOVO IDEAPAD S340 - LAPTOP-CIUCSH0M"/>
+         <property name="hostAddress" value="192.168.1.9"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+      </properties>
+      <testcase name="Test Cases/TC1_GetUsersList" time="2.983" classname="Test Cases/TC1_GetUsersList" status="PASSED">
+         <system-out><![CDATA[2022-09-15 16:29:46 - [TEST_CASE][PASSED] - Test Cases/TC1_GetUsersList: Test Cases/TC1_GetUsersList
+
+2022-09-15 16:29:46 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("UsersList")): Send request successfully
+
+2022-09-15 16:29:49 - [MESSAGE][INFO] - HAR: C:\Users\LENOVO IDEAPAD S340\git\test1\Reports\20220915_162942\RunAllTests\20220915_162942\requests\main\0.har
+
+2022-09-15 16:29:49 - [MESSAGE][PASSED] - Send request successfully
+
+2022-09-15 16:29:49 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-09-15 16:29:49 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC2_GetSpecificUser" time="1.254" classname="Test Cases/TC2_GetSpecificUser" status="PASSED">
+         <system-out><![CDATA[2022-09-15 16:29:49 - [TEST_CASE][PASSED] - Test Cases/TC2_GetSpecificUser: Test Cases/TC2_GetSpecificUser
+
+2022-09-15 16:29:49 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("SpecificUser")): Send request successfully
+
+2022-09-15 16:29:50 - [MESSAGE][INFO] - HAR: C:\Users\LENOVO IDEAPAD S340\git\test1\Reports\20220915_162942\RunAllTests\20220915_162942\requests\main\1.har
+
+2022-09-15 16:29:50 - [MESSAGE][PASSED] - Send request successfully
+
+2022-09-15 16:29:50 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-09-15 16:29:50 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-09-15 16:29:50 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.id", 5): Verify element property value successfully
+
+2022-09-15 16:29:50 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-09-15 16:29:50 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.email", "charles.morris@reqres.in"): Verify element property value successfully
+
+2022-09-15 16:29:50 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC3_PutUpdateUser" time="0.953" classname="Test Cases/TC3_PutUpdateUser" status="PASSED">
+         <system-out><![CDATA[2022-09-15 16:29:50 - [TEST_CASE][PASSED] - Test Cases/TC3_PutUpdateUser: Test Cases/TC3_PutUpdateUser
+
+2022-09-15 16:29:50 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("UpdateUser")): Send request successfully
+
+2022-09-15 16:29:51 - [MESSAGE][INFO] - HAR: C:\Users\LENOVO IDEAPAD S340\git\test1\Reports\20220915_162942\RunAllTests\20220915_162942\requests\main\2.har
+
+2022-09-15 16:29:51 - [MESSAGE][PASSED] - Send request successfully
+
+2022-09-15 16:29:51 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-09-15 16:29:51 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-09-15 16:29:51 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "name", "Alessandro"): Verify element property value successfully
+
+2022-09-15 16:29:51 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-09-15 16:29:51 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "job", "QA Engineer"): Verify element property value successfully
+
+2022-09-15 16:29:51 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC4_PostSuccessfulRegister" time="0.977" classname="Test Cases/TC4_PostSuccessfulRegister" status="PASSED">
+         <system-out><![CDATA[2022-09-15 16:29:51 - [TEST_CASE][PASSED] - Test Cases/TC4_PostSuccessfulRegister: Test Cases/TC4_PostSuccessfulRegister
+
+2022-09-15 16:29:51 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("SuccessfulRegister")): Send request successfully
+
+2022-09-15 16:29:52 - [MESSAGE][INFO] - HAR: C:\Users\LENOVO IDEAPAD S340\git\test1\Reports\20220915_162942\RunAllTests\20220915_162942\requests\main\3.har
+
+2022-09-15 16:29:52 - [MESSAGE][PASSED] - Send request successfully
+
+2022-09-15 16:29:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-09-15 16:29:52 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-09-15 16:29:52 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "id", 5): Verify element property value successfully
+
+2022-09-15 16:29:52 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-09-15 16:29:52 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "token", "QpwL5tke4Pnpja7X5"): Verify element property value successfully
+
+2022-09-15 16:29:52 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-09-15 16:29:45 - [TEST_SUITE][PASSED] - RunAllTests: Test Cases/TC4_PostSuccessfulRegister]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

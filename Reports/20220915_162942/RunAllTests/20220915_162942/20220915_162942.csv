@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RunAllTests,,,,2022-09-15 16:29:45,2022-09-15 16:29:52,6.476s,PASSED
+,,,,,,,
+Test Cases/TC1_GetUsersList,,,,2022-09-15 16:29:46,2022-09-15 16:29:49,2.983s,PASSED
+"response = sendRequest(findTestObject(""UsersList""))",,,,2022-09-15 16:29:46,2022-09-15 16:29:49,2.558s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-09-15 16:29:49,2022-09-15 16:29:49,0.018s,PASSED
+,,,,,,,
+Test Cases/TC2_GetSpecificUser,,,,2022-09-15 16:29:49,2022-09-15 16:29:50,1.254s,PASSED
+"response = sendRequest(findTestObject(""SpecificUser""))",,,,2022-09-15 16:29:49,2022-09-15 16:29:50,0.677s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-09-15 16:29:50,2022-09-15 16:29:50,0.008s,PASSED
+"verifyElementPropertyValue(response, ""data.id"", 5)",,,,2022-09-15 16:29:50,2022-09-15 16:29:50,0.088s,PASSED
+"verifyElementPropertyValue(response, ""data.email"", ""charles.morris@reqres.in"")",,,,2022-09-15 16:29:50,2022-09-15 16:29:50,0.023s,PASSED
+,,,,,,,
+Test Cases/TC3_PutUpdateUser,,,,2022-09-15 16:29:50,2022-09-15 16:29:51,0.953s,PASSED
+"response = sendRequest(findTestObject(""UpdateUser""))",,,,2022-09-15 16:29:50,2022-09-15 16:29:51,0.583s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-09-15 16:29:51,2022-09-15 16:29:51,0.003s,PASSED
+"verifyElementPropertyValue(response, ""name"", ""Alessandro"")",,,,2022-09-15 16:29:51,2022-09-15 16:29:51,0.022s,PASSED
+"verifyElementPropertyValue(response, ""job"", ""QA Engineer"")",,,,2022-09-15 16:29:51,2022-09-15 16:29:51,0.021s,PASSED
+,,,,,,,
+Test Cases/TC4_PostSuccessfulRegister,,,,2022-09-15 16:29:51,2022-09-15 16:29:52,0.977s,PASSED
+"response = sendRequest(findTestObject(""SuccessfulRegister""))",,,,2022-09-15 16:29:51,2022-09-15 16:29:52,0.577s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-09-15 16:29:52,2022-09-15 16:29:52,0.004s,PASSED
+"verifyElementPropertyValue(response, ""id"", 5)",,,,2022-09-15 16:29:52,2022-09-15 16:29:52,0.030s,PASSED
+"verifyElementPropertyValue(response, ""token"", ""QpwL5tke4Pnpja7X5"")",,,,2022-09-15 16:29:52,2022-09-15 16:29:52,0.024s,PASSED
